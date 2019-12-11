@@ -1,0 +1,43 @@
+--------////////////-----------
+
+ O QUE SÃO CADA UM DOS CÓDIGOS
+
+-------////////////-----------
+
+
+-----------------------------
+Interpola.py
+
+Primeira versão que fiz da interpolação, foi nele
+que percebi o problema dos tempos terem uma diferença 
+muito grande. Por isso dividi em dois: entre os que batem 
+no gem (interpola-gem.py) e os que sobem direto 
+(interpola-direto.py)
+
+-----------------------------
+
+separa-tempo.py e separa-tempo2.py
+
+Método que eu uso para separar os dados em dois grupos:
+-Aqueles com um dt menor do que um número, por exemplo 500
+-Aqueles com um dt maior que outro número, por exemplo 500000
+
+Fiz isso porque o fato de os tempos serem muito distintos estava
+sendo um problema da maneira que eu fiz
+
+--------------------------------
+
+NA PASTA GIF ION ESTÁ:
+
+Interpola-gem-gif.py e Interpola-direto-gif.py
+São programas que geram 3 arquivos (xt, yt e zt)
+que são lidos coluna por coluna para fazer os desenhos
+ao longo do tempo. Cada coluna é a posição das n partículas
+em determinado dt.
+
+desenha-gempy e desenha-direto.py
+
+Faz os desenhos dos dados gerados pelos programas
+anteriores 
+
+AS GIFS EU FIZ NO SITE https://ezgif.com/maker
